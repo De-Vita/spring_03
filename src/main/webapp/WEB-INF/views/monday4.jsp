@@ -15,15 +15,20 @@
     <h2>monday4.jsp</h2>
     <table style="text-align: center">
         <tr>
+            <th>id</th>
             <th>email</th>
             <th>password</th>
+            <th>name</th>
+            <th>mobile</th>
+
         </tr>
-        <%-- items: 반복할 대상, var: 반복변수 --%>
-        <%-- for(StudentDTO s: studentList) --%>
-        <c:forEach items="${memberList}" var="m">
+        <c:forEach items="${memberList}" var="memeber">
             <tr>
-                <td>${m.email}</td>
-                <td>${m.password}</td>
+                <td>${memeber.id}</td>
+                <td>${memeber.email}</td>
+                <td>${memeber.password}</td>
+                <td>${memeber.name}</td>
+                <td>${memeber.mobile}</td>
             </tr>
         </c:forEach>
     </table>

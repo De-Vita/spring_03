@@ -12,8 +12,8 @@
 </head>
 <body>
 <form action="/monday2-param" method="get">
-    <input type="text" name="name"><br>
-    <input type="text" name="mobile">
+    <input type="text" name="name" placeholder="이름"><br>
+    <input type="text" name="mobile" placeholder="전화번호">
     <input type="submit" value="전송">
 </form>
 </body>

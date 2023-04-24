@@ -12,8 +12,8 @@
 </head>
 <body>
 <form action="/monday3-param" method="post">
-    <input type="text" name="email"><br>
-    <input type="text" name="password">
+    <input type="text" name="email" placeholder="이메일"><br>
+    <input type="text" name="password" placeholder="비밀번호">
     <input type="submit" value="전송">
 </form>
 </body>
